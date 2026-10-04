@@ -55,3 +55,6 @@ Claude was also used to generate code to download the data from the website, htt
     print("\nDone. Files in volume:")
     for f in sorted(os.listdir(f"{DEST}/{PID}")):
         print(f"  {f}: {os.path.getsize(f'{DEST}/{PID}/{f}')/1e6:,.1f} MB")
+
+Used the following link to figure out how to style text in python uing html and inline css styling:
+https://stackoverflow.com/questions/70932538/how-to-center-the-title-and-an-image-in-streamlit
